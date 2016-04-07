@@ -10,7 +10,7 @@ body {
 }
 
 .Cover-logo img{
-	max-width: 100%;
+	max-width: 85%;
 }
 
 .Cover-down {
@@ -31,7 +31,7 @@ body {
 	}
 
 	.Cover-logo img{
-		max-width: 50%;
+		max-width: 60%;
 	}	
 
 	.Cover-down img{
