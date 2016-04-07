@@ -1,8 +1,40 @@
 body {
 	font-family: 'Arial', sans-serif;
 	background: #F7F7F9;
+	/* position: relative; */
 }
 
-.Cover-main {
+.Cover-logo {
+	max-width: 900px;
+	margin-top: 37vh;
+}
+
+.Cover-logo img{
 	max-width: 100%;
+}
+
+.Cover-down {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.Cover-down img{
+	max-width: 100%;
+}
+
+@media (min-width: 800px) {
+	.Cover-logo {
+		max-width: 900px;
+	}
+
+	.Cover-logo img{
+		max-width: 50%;
+	}	
+
+	.Cover-down img{
+		max-width: 100%;
+	}	
 }
