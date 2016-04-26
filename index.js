@@ -20,13 +20,6 @@ app.use(cookieParser())
 
 app.use(favicon(path.join(__dirname, './public/images/favicom.ico')))
 
-app.get('/', function (req, res) {
-	setTimeout(function(){
-		// window.location.replace('https://www.facebook.com/CoderAgenciaDigital')
-		res.redirect('https://www.facebook.com/CoderAgenciaDigital')
-	}, 3000)
-})
-
 // Error 404
 app.use(function (req, res) {
 	res.statusCode = 404
